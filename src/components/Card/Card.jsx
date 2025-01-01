@@ -7,7 +7,7 @@ const Card = () => {
   const [response, setResponse] = useState('Please input a text!')
 
   const formResponse = response => {
-    const score = response.data.score * 100
+    const score = (response.data.score * 100).toFixed(2)
     const msg =
       response.data.label == 'LABEL_1'
         ? `text is likely AI with ${score}% confidence`
