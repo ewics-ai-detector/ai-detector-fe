@@ -1,8 +1,8 @@
-# React + Vite
+# AI Detector Front End
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend for ai detector web app. Gives users an easy way to interact with my fine tuned DistilBert model. Built with React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to run
+Install dependencies with `yarn install`
+Run frontend with `yarn dev`
+To get full functionality, you need to make sure that the backend server is running at the same time. Please see the [Readme here](https://github.com/ewics-ai-detector/ai-detector-be/blob/main/README.md)
